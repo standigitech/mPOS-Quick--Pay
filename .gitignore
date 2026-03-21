@@ -1,0 +1,31 @@
+# Secrets & credentials (NEVER commit these!)
+.env
+.env.local
+.env.development
+.env.production
+*.key
+*.pem
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock   # optional - remove if you use yarn exclusively
+
+# Build / dist folders
+build/
+dist/
+.next/
+out/
+
+# Logs and temp files
+*.log
+*.tmp
+coverage/
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
