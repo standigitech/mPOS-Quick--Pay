@@ -34,7 +34,7 @@ export default function App() {
       });
 
       // We wait for the backend to reply
-      const data = await response.json();
+      await response.json();
       setIsLoading(false);
 
       // If the backend says OK, we show success!
@@ -44,7 +44,7 @@ export default function App() {
         Alert.alert('Error', 'Failed to send prompt to phone.');
       }
 
-    } catch (error) {
+    } catch {
       setIsLoading(false);
       Alert.alert('Network Error', 'Could not connect to the backend server. Is the IP correct and the server running?');
     }
