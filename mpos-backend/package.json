@@ -1,11 +1,10 @@
 {
-  "name": "mpos-quick-pay",
+  "name": "mpos-backend",
   "version": "1.0.0",
-  "description": "mPOS Quick Pay - Daraja STK Push for M-Pesa",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -16,8 +15,5 @@
     "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
   }
 }
